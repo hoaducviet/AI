@@ -7,6 +7,7 @@ Thay vào đó sẽ dùng bộ data mẫu nhỏ đã có sẵn chỉ gồm 7 nh�
 Các bước thực hiện:
 
 - Lấy dữ liệu từ nguồn dữ liệu thô chưa được xử lý (Có thể bỏ qua bước này đối với bộ 438 nhân vật)
+  
 B1: Run /source/Origin/getFace_fromDataOrigin.py
 => Kết quả thu được là các dataset khuôn mặt được cắt từ nguồn đầu vào => Lưu ở /dataset
 
@@ -19,6 +20,7 @@ B2: Run source/Origin/train_FaceRecoginition.py
 Quá trình train đã xong giờ qua phần nhận diện.
 
 -Kiểm tra xem hiệu suất mô hình là bao nhiêu
+
 B3: Run source/Origin/test_result.py
 => Kết quả thu được là số hình đúng với nhãn được gán (được hiển thị ở terminal)
 
