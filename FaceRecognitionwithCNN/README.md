@@ -34,5 +34,3 @@ B4: Run source/Origin/faceRecoginition.py
 
 **Lưu Ý: Nếu muốn dùng bộ dữ liệu khác thì phải chú ý đến tên model đã train, và dataset tương ứng. Sai lệch sẽ đưa ra kết quả không chính xác.
 
-Vì dung lượng file tối đa trong Teams là 500MB nên không thể gửi kèm dataOrigin. Lấy thêm dữ liệu tại: 
-Github.com/hoaducviet/AI
